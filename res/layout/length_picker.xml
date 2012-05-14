@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal" >
+  <Button
+    android:id="@+id/minus_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/minus" />
+  <TextView
+    android:id="@+id/text"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:gravity="center" />
+  <Button
+    android:id="@+id/plus_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/plus" />
+</merge>

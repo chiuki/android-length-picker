@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Length Picker</string>
+
+  <string name="plus">+</string>
+  <string name="minus">-</string>
+
+  <string name="width">Width</string>
+  <string name="height">Height</string>
+  <string name="area">Area</string>
+  <string name="compute">Compute</string>
+  <string name="area_format">%1$d sq in</string>
+</resources>

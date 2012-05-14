@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content" >
+  <TableRow>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:text="@string/width" />
+    <com.sqisland.android.length_picker.LengthPicker
+      android:id="@+id/width"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+  </TableRow>
+  <TableRow>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:text="@string/height" />
+    <com.sqisland.android.length_picker.LengthPicker
+      android:id="@+id/height"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+  </TableRow>
+  <TableRow>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/area" />
+    <TextView
+      android:id="@+id/area"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center" />
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/compute"
+      android:onClick="updateArea" />
+  </TableRow>
+</TableLayout>
